@@ -1,0 +1,29 @@
+/* -- Basic -- */
+								.wrapper {position: relative; width: 100%; height: 100%; text-align: center;}
+								h1 {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); vertical-align: middle;}
+								img {width: 100%; max-width: 100%;}
+								p {position: absolute; left: 50%; bottom: 10%; transform: translate(-50%, -50%); width: 100%; font-family: "Kor"; font-size: 17px;}
+								p.p_d {display: none;}
+								p.p_r {display: block;}
+
+
+/* -- Tablet -- */
+@media screen and (min-width: 768px) {
+								.wrapper {position: relative; width: 100%; height: 100%; text-align: center;}
+								h1 {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); vertical-align: middle;}
+								img {width: 100%; max-width: 100%;}
+								p {position: absolute; left: 50%; bottom: 10%; transform: translate(-50%, -50%); width: 100%; font-family: "Kor"; font-size: 17px;}
+								p.p_d {display: none;}
+								p.p_r {display: block;}
+}
+
+
+/* -- Desktop -- */
+@media screen and (min-width: 1280px) {
+								.wrapper {position: relative; width: 100%; height: 100%; text-align: center;}
+								h1 {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); vertical-align: middle;}
+								img {width: 100%; max-width: 100%;}
+								p {position: absolute; left: 50%; bottom: 10%; transform: translate(-50%, -50%); width: 100%; font-family: "Kor"; font-size: 17px;}
+								p.p_d {display: block;}
+								p.p_r {display: none;}
+}

@@ -1,0 +1,272 @@
+/* -- Basic -- */
+								aside {width: 0px; height: 0px;}
+
+								aside.left h1 {display: none; position: fixed; top: 30px; left: 30px; width: 60px; height: 80px;}
+
+                div.container {position: relative; display: table-cell; overflow: scroll; width: 100%; height: auto; padding: 7% 3%;}
+                div.container article {display: block; overflow: visible; height: auto; margin: 0 auto;}
+
+                article.article_info {opacity: 0; width: 100%; max-width: 472px; font-family: "Kor"; text-align: center; margin-top: 30px;}
+                article.article_info img {width: 80%; max-width: 327px; height: auto;}
+                article.article_info h2 {margin-top: 15px; font-size: 22px;}
+                article.article_info p.small {display: block; margin-bottom: 15px; font-size: 17px;}
+                article.article_info p {font-size: 18px;}
+																
+                section.about_r {width: 100%; max-width: 472px; margin: 0 auto;}
+
+                article.article_person {opacity: 0; width: 100%; font-family: "Eng", "Kor"; margin-top: 30px;}
+                article.article_person h2 {margin-top: 45px; font-size: 22px; text-align: center; color: #a71e22; line-height: 30px;}
+                article.article_person dl {overflow: hidden;}
+                article.article_person dt {float: left; display: inline-block; width: 38%; height: 42px; margin: 5px 0; font-size: 18px;}    
+                article.article_person dt span.dl_small {font-size: 17px;}
+                article.article_person dl dd {float: left; display: inline-block; width: 62%; margin: 5px 0; line-height: 42px;}
+                article.article_person dl dd span {display: inline-block; height: 14px; margin-left: 10px; background: #a71e22; border-radius: 10px;}
+                article.article_person dl dd span.per01 {width: 90%;}
+                article.article_person dl dd span.per02 {width: 80%;}
+                article.article_person dl dd span.per03 {width: 85%;}
+                article.article_person dl dd span.per04 {width: 75%;}
+
+                article.article_identity {opacity: 0; width: 100%; font-family: "Eng", "Kor"; margin-top: 30px;}
+                article.article_identity h2 {margin-top: 45px; font-size: 22px; text-align: center; color: #a71e22; line-height: 30px;}
+                article.article_identity p {font-family: "Kor"; font-size: 17px;}
+                article.article_identity dl {overflow: hidden; display: table; width: 100%; margin: 5px 0;}
+                article.article_identity dl dt {position: relative; float: left; display: table-cell; width: 35%; height: 180px;}
+                article.article_identity dl dt img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+                article.article_identity dl dd {float: left; display: table-cell; width: 65%; height: 180px;} 
+                article.article_identity dl dd ul {overflow: hidden; width: 100%; height: 100%;}
+                article.article_identity dl dd ul li {float: left; position: relative; height: 50px; vertical-align: middle;}
+                article.article_identity dl dd ul li img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+                article.article_identity dl dd ul li:first-child {width: 50%;}
+                article.article_identity dl dd ul li:nth-child(2) {width: 50%;}
+                article.article_identity dl dd ul li:last-child {height: 130px; padding: 6% 0 0 4%; vertical-align: middle;}
+
+                article.article_skills {opacity: 0; width: 100%; margin-top: 30px;}
+                h2 {margin-top: 45px; font-size: 22px; text-align: center; color: #a71e22; line-height: 30px;}
+                article.article_skills dl {overflow: hidden;}
+                article.article_skills dt {float: left; display: inline-block; width: 38%; height: 21px; margin: 5px 0; font-size: 18px;}    
+                article.article_skills dt span {font-size: 18px; line-height: 21px;}
+                article.article_skills dl dd {float: left; display: inline-block; width: 62%; height: 21px; margin: 5px 0; line-height: 21px;}
+                article.article_skills dl dd span {position: relative; display: inline-block; height: 16px; margin-left: 10px; background: #a71e22; border-radius: 10px;}
+                article.article_skills dl dd span:after {content: ''; width: 99%; position: absolute; top: 1px; left: 50%; transform: translate(-50%, 0); height: 12px; border-radius: 10px; border: 1px solid #efece1;}
+                article.article_skills dl dd span.skills01 {width: 60%;}
+                article.article_skills dl dd span.skills02 {width: 80%;}
+                article.article_skills dl dd span.skills03 {width: 85%;}
+                article.article_skills dl dd span.skills04 {width: 85%;}
+                article.article_skills dl dd span.skills05 {width: 85%;}
+                article.article_skills dl dd span.skills06 {width: 70%;}
+                article.article_skills dl dd span.skills07 {width: 50%;}
+																
+                article.article_ex {opacity: 0;}																
+                article.article_ex ul li {list-style-type: disc; list-style-position: inside; padding: 8px 0; font-size: 18px; line-height: 20px; font-family: "Eng", "Kor";}
+
+								div.gnb {display: block; position: fixed; top: 0; left: 100%; overflow: hidden; width: 100%; height: 100%; background: #d4c8b3; text-align: center; transition: left 0.3s}
+								div.gnb h1 img {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%);}
+								div.gnb ul li:nth-child(1) {position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(2) {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(3) {position: absolute; top: 60%; right: 50%; transform: translate(50%, -50%); float:left; font-size: 31px;}
+
+								span.btn_menu {position: fixed; top: 10px; right: 10px; width: 40px; height: 40px;}
+
+								span.btn_menu img {transition: 0.3s;}
+
+								span.btn_menu img.btn_01 {position: absolute; top: 2px; left: 2px; width: 10px; height: 10px;}
+								span.btn_menu img.btn_02 {position: absolute; top: 0px; left: 14px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_03 {position: absolute; top: 2px; right: 2px; width: 10px; height: 10px;}
+								span.btn_menu img.btn_04 {position: absolute; top: 14px; left: 0px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_05 {position: absolute; top: 14px; left: 14px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_06 {position: absolute; top: 14px; right: 0px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_07 {position: absolute; bottom: 2px; left: 2px; width: 10px; height: 10px;}
+								span.btn_menu img.btn_08 {position: absolute; bottom: 0px; left: 14px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_09 {position: absolute; bottom: 2px; right: 2px; width: 10px; height: 10px;}
+
+								div.resize {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #d4c8b3; text-align: center; font-size: 30px;}
+								div.resize p {position: fixed; top: 50%; transform: translateY(-50%); width: 100%;}
+
+
+/* -- Tablet -- */
+@media screen and (min-width: 768px){
+								aside {width: 0px; height: 0px;}
+
+								aside.left h1 {display: none; position: fixed; top: 30px; left: 30px; width: 60px; height: 80px;}
+
+								div.container {position: relative; display: table-cell; overflow: hidden; width: 100%; height: 100%; padding: 7% 3%;}
+
+                div.container article {display: block; overflow: visible; height: auto; margin: 0 auto;}
+
+                article.article_info {width: 100%; max-width: 472px; font-family: "Kor"; text-align: center; margin-top: 30px;}
+                article.article_info img {width: 100%; max-width: 327px; height: auto;}
+                article.article_info h2 {margin-top: 15px; font-size: 22px;}
+                article.article_info p.small {display: block; margin-bottom: 15px; font-size: 17px;}
+                article.article_info p {font-size: 18px;}
+																
+                section.about_r {width: 100%; max-width: 472px; margin: 0 auto;}
+
+                article.article_person {width: 100%; font-family: "Eng", "Kor"; margin-top: 30px;}
+                article.article_person h2 {margin-top: 45px; font-size: 22px; text-align: center; color: #a71e22; line-height: 30px;}
+                article.article_person dl {overflow: hidden;}
+                article.article_person dt {float: left; display: inline-block; width: 29%; height: 42px; margin: 5px 0; font-size: 19px;}    
+                article.article_person dt span.dl_small {font-size: 17px;}
+                article.article_person dl dd {float: left; display: inline-block; width: 71%; margin: 5px 0; line-height: 42px;}
+                article.article_person dl dd span {display: inline-block; height: 14px; margin-left: 10px; background: #a71e22; border-radius: 10px;}
+                article.article_person dl dd span.per01 {width: 90%;}
+                article.article_person dl dd span.per02 {width: 80%;}
+                article.article_person dl dd span.per03 {width: 85%;}
+                article.article_person dl dd span.per04 {width: 75%;}
+
+                article.article_identity {width: 100%; font-family: "Eng", "Kor"; margin-top: 30px;}
+                article.article_identity h2 {margin-top: 45px; font-size: 22px; text-align: center; color: #a71e22; line-height: 30px;}
+                article.article_identity p {font-family: "Kor"; font-size: 18px;}
+                article.article_identity dl {overflow: hidden; display: table; width: 100%; margin: 5px 0;}
+                article.article_identity dl dt {position: relative; float: left; display: table-cell; width: 35%; height: 160px;}
+                article.article_identity dl dt img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+                article.article_identity dl dd {float: left; display: table-cell; width: 65%; height: 160px;} 
+                article.article_identity dl dd ul {overflow: hidden; width: 100%; height: 100%;}
+                article.article_identity dl dd ul li {float: left; position: relative; height: 50px; vertical-align: middle;}
+                article.article_identity dl dd ul li img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+                article.article_identity dl dd ul li:first-child {width: 50%;}
+                article.article_identity dl dd ul li:nth-child(2) {width: 50%;}
+                article.article_identity dl dd ul li:last-child {height: 110px; padding: 6% 0 0 4%; vertical-align: middle;}
+
+                article.article_skills {width: 100%; margin-top: 30px;}
+                h2 {margin-top: 45px; font-size: 22px; text-align: center; color: #a71e22; line-height: 30px;}
+                article.article_skills dl {overflow: hidden;}
+                article.article_skills dt {float: left; display: inline-block; width: 28.5%; height: 21px; margin: 5px 0; font-size: 17px;}    
+                article.article_skills dt span {font-size: 17px; line-height: 21px;}
+                article.article_skills dl dd {float: left; display: inline-block; width: 71.5%; height: 21px; margin: 5px 0; line-height: 21px;}
+                article.article_skills dl dd span {position: relative; display: inline-block; height: 16px; margin-left: 10px; background: #a71e22; border-radius: 10px;}
+                article.article_skills dl dd span:after {content: ''; width: 99%; position: absolute; top: 1px; left: 50%; transform: translate(-50%, 0); height: 12px; border-radius: 10px; border: 1px solid #efece1;}
+                article.article_skills dl dd span.skills01 {width: 60%;}
+                article.article_skills dl dd span.skills02 {width: 80%;}
+                article.article_skills dl dd span.skills03 {width: 85%;}
+                article.article_skills dl dd span.skills04 {width: 85%;}
+                article.article_skills dl dd span.skills05 {width: 85%;}
+                article.article_skills dl dd span.skills06 {width: 70%;}
+                article.article_skills dl dd span.skills07 {width: 50%;}
+																
+                article.article_ex ul li {list-style-type: disc; list-style-position: inside; padding: 8px 0; font-size: 18px; line-height: 20px; font-family: "Eng", "Kor";}
+
+								div.gnb {display: block; position: fixed; top: 0; left: 100%; overflow: hidden; width: 100%; height: 100%; background: #d4c8b3; text-align: center; transition: left 0.3s}
+								div.gnb h1 img {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%);}
+								div.gnb ul li:nth-child(1) {position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(2) {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(3) {position: absolute; top: 60%; right: 50%; transform: translate(50%, -50%); float:left; font-size: 31px;}
+
+								span.btn_menu {position: fixed; top: 10px; right: 10px; width: 60px; height: 60px;}
+
+								span.btn_menu img {transition: 0.3s;}
+
+								span.btn_menu img.btn_01 {position: absolute; top: 4px; left: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_02 {position: absolute; top: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_03 {position: absolute; top: 4px; right: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_04 {position: absolute; top: 22px; left: 0px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_05 {position: absolute; top: 22px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_06 {position: absolute; top: 22px; right: 0px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_07 {position: absolute; bottom: 4px; left: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_08 {position: absolute; bottom: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_09 {position: absolute; bottom: 4px; right: 4px; width: 14px; height: 14px;}
+
+								div.resize {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #d4c8b3; text-align: center; font-size: 30px;}
+								div.resize p {position: fixed; top: 50%; transform: translateY(-50%); width: 100%;}
+}
+
+
+/* -- Desktop -- */
+@media screen and (min-width: 1280px){
+								aside {width: 120px; height: 100%;}
+
+								aside.left h1 {display: block; position: fixed; top: 30px; left: 30px; width: 60px; height: 80px;}
+								aside.left h1 p {position: absolute; top: 40%; left: 0; width: 100%; text-align: center; font-size: 18px; opacity: 0;}
+
+								div.container {position: relative; display: table-cell; overflow: scroll; width: auto; height: 100%; padding: 0 3%;}								
+                div.container article {overflow: hidden; display: block; height: auto; margin: 0 auto;}
+
+                article.article_info {opacity: 0; position: absolute; top: 50vh; left: 0; transform: translateY(-50%); width: 30%; max-width: 30%; padding-left: 3%; font-family: "Kor"; text-align: center; margin-top: 30px;}
+                article.article_info img {width: 100%; max-width: 327px; height: auto;}
+                article.article_info h2 {margin-top: 15px; font-size: 22px;}
+                article.article_info p.small {display: block; margin-bottom: 15px; font-size: 17px;}
+                article.article_info p {font-size: 18px;}
+																
+                section.about_r {position: absolute; top: 47vh; right: 0; transform: translateY(-50%); width: 70%; max-width: 70%; margin: 0 auto; padding: 0 3% 0 4%;}
+                section.about_r div {width: 100%; overflow: hidden;}
+
+                article.article_person {opacity: 0; float: left; width: 50%; max-width: 50%; font-family: "Eng", "Kor"; margin-top: 30px; padding-right: 2%;}
+                article.article_person h2 {margin-top: 0px; font-size: 22px; text-align: center; color: #a71e22; line-height: 30px;}
+                article.article_person dl {overflow: hidden;}
+                article.article_person dt {float: left; display: inline-block; width: 36%; height: 42px; margin: 5px 0; font-size: 19px;}    
+                article.article_person dt span.dl_small {font-size: 17px;}
+                article.article_person dl dd {float: left; display: inline-block; width: 64%; margin: 5px 0; line-height: 42px;}
+                article.article_person dl dd span {display: inline-block; height: 14px; margin-left: 10px; background: #a71e22; border-radius: 10px;}
+                article.article_person dl dd span.per01 {width: 90%;}
+                article.article_person dl dd span.per02 {width: 80%;}
+                article.article_person dl dd span.per03 {width: 85%;}
+                article.article_person dl dd span.per04 {width: 75%;}
+
+                article.article_identity {opacity: 0; float: right; width: 50%; max-width: 50%; font-family: "Eng", "Kor"; margin-top: 30px; padding-left: 2%;}
+                article.article_identity h2 {margin-top: 0px; font-size: 22px; text-align: center; color: #a71e22; line-height: 30px;}
+                article.article_identity p {font-family: "Kor"; font-size: 17px;}
+                article.article_identity dl {overflow: hidden; display: table; width: 100%; margin: 5px 0;}
+                article.article_identity dl dt {position: relative; float: left; display: table-cell; width: 35%; height: 168px;}
+                article.article_identity dl dt img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+                article.article_identity dl dd {float: left; display: table-cell; width: 65%; height: 168px;} 
+                article.article_identity dl dd ul {overflow: hidden; width: 100%; height: 100%;}
+                article.article_identity dl dd ul li {float: left; position: relative; height: 50px; vertical-align: middle;}
+                article.article_identity dl dd ul li img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+                article.article_identity dl dd ul li:first-child {width: 50%;}
+                article.article_identity dl dd ul li:nth-child(2) {width: 50%;}
+                article.article_identity dl dd ul li:last-child {height: 100px; padding: 5% 0 0 6%; vertical-align: middle;}
+
+                article.article_skills {opacity: 0; float: left; width: 50%; max-width: 50%; font-family: "Eng", "Kor"; margin-top: 30px; padding-right: 2%;}
+                h2 {margin-top: 45px; font-size: 22px; text-align: center; color: #a71e22; line-height: 30px;}
+                article.article_skills dl {overflow: hidden;}
+                article.article_skills dt {float: left; display: inline-block; width: 32.5%; height: 21px; margin: 5px 0; font-size: 19px; line-height: 21px;}    
+                article.article_skills dt span {font-size: 17px;}
+                article.article_skills dl dd {position: relative; float: left; display: inline-block; width: 67.5%; height: 21px; margin: 5px 0; line-height: 21px;}
+                article.article_skills dl dd span {position: absolute; top: 50%; transform: translateY(-50%); position: relative; display: inline-block; height: 16px; margin-left: 10px; background: #a71e22; border-radius: 10px; line-height: 21px;}
+                article.article_skills dl dd span:after {content: ''; width: 99%; position: absolute; top: 1px; left: 50%; transform: translate(-50%, 0); height: 12px; border-radius: 10px; border: 1px solid #efece1; line-height: 21px;}
+                article.article_skills dl dd span.skills01 {width: 60%;}
+                article.article_skills dl dd span.skills02 {width: 80%;}
+                article.article_skills dl dd span.skills03 {width: 85%;}
+                article.article_skills dl dd span.skills04 {width: 85%;}
+                article.article_skills dl dd span.skills05 {width: 85%;}
+                article.article_skills dl dd span.skills06 {width: 70%;}
+                article.article_skills dl dd span.skills07 {width: 50%;}
+                
+                article.article_ex {opacity: 0; float: right; width: 50%; max-width: 50%; font-family: "Eng", "Kor"; margin-top: 30px; padding-left: 2%;}
+                article.article_ex ul li {list-style-type: disc; list-style-position: inside; padding: 8px 0; font-size: 18px; line-height: 20px; font-family: "Eng", "Kor";}
+
+								div.gnb {display: block; position: fixed; top: 0; left: 100%; overflow: hidden; width: 100%; height: 100%; background: #d4c8b3; text-align: center; transition: left 0.3s}
+								div.gnb h1 img {position: absolute; top: 25%; left: 50%; transform: translate(-50%, -50%);}
+								div.gnb ul li:nth-child(1) {position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(2) {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(3) {position: absolute; top: 50%; right: 25%; transform: translate(50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:hover a {color: #606060;}
+								div.gnb ul li:hover .txt_red {color: #bb3e42;}
+
+								span.btn_menu {position: fixed; top: 30px; right: 30px; width: 60px; height: 60px;}
+
+								span.btn_menu img {transition: 0.3s;}
+								span.btn_menu:hover img {transition: 0.3s;}
+
+								span.btn_menu img.btn_01 {position: absolute; top: 4px; left: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_02 {position: absolute; top: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_03 {position: absolute; top: 4px; right: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_04 {position: absolute; top: 22px; left: 0px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_05 {position: absolute; top: 22px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_06 {position: absolute; top: 22px; right: 0px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_07 {position: absolute; bottom: 4px; left: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_08 {position: absolute; bottom: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_09 {position: absolute; bottom: 4px; right: 4px; width: 14px; height: 14px;}
+
+								span.btn_menu:hover img.btn_01 {position: absolute; top: 2px; left: 2px; width: 14px; height: 14px;}
+								span.btn_menu:hover img.btn_02 {position: absolute; top: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_03 {position: absolute; top: 2px; right: 2px; width: 14px; height: 14px;}
+								span.btn_menu:hover img.btn_04 {position: absolute; top: 22px; left: 0px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_05 {position: absolute; top: 22px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_06 {position: absolute; top: 22px; right: 0px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_07 {position: absolute; bottom: 2px; left: 2px; width: 14px; height: 14px;}
+								span.btn_menu:hover img.btn_08 {position: absolute; bottom: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_09 {position: absolute; bottom: 2px; right: 2px; width: 14px; height: 14px;}
+
+								div.resize {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #d4c8b3; text-align: center; font-size: 30px;}
+								div.resize p {position: fixed; top: 50%; transform: translateY(-50%); width: 100%;}
+}

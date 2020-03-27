@@ -1,0 +1,134 @@
+/* -- Basic -- */
+								aside {width: 0px; height: 0px;}
+
+								aside.left h1 {display: none; position: fixed; top: 30px; left: 30px; width: 60px; height: 80px;}
+
+								section.container {position: relative; display: table-cell; overflow: visible; width: 100%; height: 100%; padding: 0 3%;}
+								section.container img.main_bg {display: none; position: absolute; top: 5vh; right: 3vh; height: 100vh; max-height: 90vh;}
+								section.container h2 {display: inline-block; position: absolute; top: 50vh;  left: 40%; transform: translate(-50%, -50%); width: 94%; text-align: right; font-size: 52px;}
+								section.container h2 p:nth-child(1) {opacity: 0;}
+								section.container h2 p:nth-child(2) {opacity: 0;}
+								section.container h2 p:nth-child(3) {opacity: 0;}
+								section.container h2 p span.action img {vertical-align: middle; transform: scale(0.75);}
+								section.container h2 p.txt_small {font-size: 26px;}
+
+								div.gnb {display: block; position: fixed; top: 0; left: 100%; overflow: hidden; width: 100%; height: 100%; background: #d4c8b3; text-align: center; transition: left 0.3s}
+								div.gnb h1 img {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%);}
+								div.gnb ul li:nth-child(1) {position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(2) {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(3) {position: absolute; top: 60%; right: 50%; transform: translate(50%, -50%); float:left; font-size: 31px;}
+
+								span.btn_menu {position: fixed; top: 10px; right: -70px; width: 40px; height: 40px;}
+
+								span.btn_menu img {transition: 0.3s;}
+
+								span.btn_menu img.btn_01 {position: absolute; top: 2px; left: 2px; width: 10px; height: 10px;}
+								span.btn_menu img.btn_02 {position: absolute; top: 0px; left: 14px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_03 {position: absolute; top: 2px; right: 2px; width: 10px; height: 10px;}
+								span.btn_menu img.btn_04 {position: absolute; top: 14px; left: 0px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_05 {position: absolute; top: 14px; left: 14px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_06 {position: absolute; top: 14px; right: 0px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_07 {position: absolute; bottom: 2px; left: 2px; width: 10px; height: 10px;}
+								span.btn_menu img.btn_08 {position: absolute; bottom: 0px; left: 14px; width: 12px; height: 12px;}
+								span.btn_menu img.btn_09 {position: absolute; bottom: 2px; right: 2px; width: 10px; height: 10px;}
+								
+								div.resize {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #d4c8b3; text-align: center; font-size: 30px;}
+								div.resize p {position: fixed; top: 50%; transform: translateY(-50%); width: 100%;}
+
+
+/* -- Tablet -- */
+@media screen and (min-width: 768px) {
+								aside {width: 0px; height: 0px;}
+
+								aside.left h1 {display: none; position: fixed; top: 30px; left: 30px; width: 60px; height: 80px;}
+
+								section.container {position: relative; display: table-cell; overflow: hidden; width: 100%; height: 100%; padding: 0 3%;}
+								section.container img.main_bg {display: none; position: absolute; top: 5vh; right: 3vh; height: 100vh; max-height: 90vh;}
+								section.container h2 {display: inline-block; position: absolute; top: 50vh;  left: 40%; transform: translate(-50%, -50%); width: 94%; text-align: right; font-size: 70px;}
+								section.container h2 p:nth-child(1) {opacity: 0;}
+								section.container h2 p:nth-child(2) {opacity: 0;}
+								section.container h2 p:nth-child(3) {opacity: 0;}
+								section.container h2 p span.action img {vertical-align: middle; transform: scale(1);}
+								section.container h2 p.txt_small {font-size: 35px;}
+
+								div.gnb {display: block; position: fixed; top: 0; left: 100%; overflow: hidden; width: 100%; height: 100%; background: #d4c8b3; text-align: center; transition: left 0.3s}
+								div.gnb h1 img {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%);}
+								div.gnb ul li:nth-child(1) {position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(2) {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(3) {position: absolute; top: 60%; right: 50%; transform: translate(50%, -50%); float:left; font-size: 31px;}
+
+								span.btn_menu {position: fixed; top: 10px; right: -70px; width: 60px; height: 60px;}
+
+								span.btn_menu img {transition: 0.3s;}
+
+								span.btn_menu img.btn_01 {position: absolute; top: 4px; left: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_02 {position: absolute; top: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_03 {position: absolute; top: 4px; right: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_04 {position: absolute; top: 22px; left: 0px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_05 {position: relative; top: 22px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_06 {position: absolute; top: 22px; right: 0px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_07 {position: absolute; bottom: 4px; left: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_08 {position: absolute; bottom: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_09 {position: absolute; bottom: 4px; right: 4px; width: 14px; height: 14px;}
+
+								div.resize {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #d4c8b3; text-align: center; font-size: 30px;}
+								div.resize p {position: fixed; top: 50%; transform: translateY(-50%); width: 100%;}
+
+}
+
+
+/* -- Desktop -- */
+@media screen and (min-width: 1280px) {
+								aside {width: 120px; height: 100%; background: #efece1;}
+								aside div {width: 120px; height: 100%; background: #eae5d4;}
+								aside.left div {position: fixed; top: 0; left: -120px;}
+								aside.right div {position: fixed; top: 0; right: -120px;}
+
+								aside.left h1 {display: block; position: fixed; top: 30px; left: -90px; width: 60px; height: 80px;}
+								aside.left h1 p {position: absolute; top: 40%; left: 0; width: 100%; text-align: center; font-size: 18px; opacity: 0;}
+
+								section.container {position: relative; display: table-cell; overflow: hidden; width: auto; height: 100%; padding: 0 3%;}
+								section.container img.main_bg {display: none; position: absolute; top: 5vh; right: 3vh; height: 100vh; max-height: 90vh;}
+								section.container h2 {position: absolute; top: 50vh;  left: 20%; transform: translate(-50%, -50%); width: 94%; text-align: right; font-size: 70px;}
+								section.container h2 p:nth-child(1) {opacity: 0;}
+								section.container h2 p:nth-child(2) {opacity: 0;}
+								section.container h2 p:nth-child(3) {opacity: 0;}
+								section.container h2 p span.action img {vertical-align: middle; transform: scale(1);}
+								section.container h2 p.txt_small {font-size: 35px;}
+
+								div.gnb {display: block; position: fixed; top: 0; left: 100%; overflow: hidden; width: 100%; height: 100%; background: #d4c8b3; text-align: center; transition: left 0.3s}
+								div.gnb h1 img {position: absolute; top: 25%; left: 50%; transform: translate(-50%, -50%);}
+								div.gnb ul li:nth-child(1) {position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(2) {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:nth-child(3) {position: absolute; top: 50%; right: 25%; transform: translate(50%, -50%); float:left; font-size: 31px;}
+								div.gnb ul li:hover a {color: #606060;}
+								div.gnb ul li:hover .txt_red {color: #bb3e42;}
+
+								span.btn_menu {position: fixed; top: 30px; right: -90px; width: 60px; height: 60px;}
+
+								span.btn_menu img {transition: 0.3s;}
+								span.btn_menu:hover img {transition: 0.3s;}
+
+								span.btn_menu img.btn_01 {position: absolute; top: 4px; left: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_02 {position: absolute; top: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_03 {position: absolute; top: 4px; right: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_04 {position: absolute; top: 22px; left: 0px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_05 {position: relative; top: 22px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_06 {position: absolute; top: 22px; right: 0px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_07 {position: absolute; bottom: 4px; left: 4px; width: 14px; height: 14px;}
+								span.btn_menu img.btn_08 {position: absolute; bottom: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu img.btn_09 {position: absolute; bottom: 4px; right: 4px; width: 14px; height: 14px;}
+
+								span.btn_menu:hover img.btn_01 {position: absolute; top: 2px; left: 2px; width: 14px; height: 14px;}
+								span.btn_menu:hover img.btn_02 {position: absolute; top: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_03 {position: absolute; top: 2px; right: 2px; width: 14px; height: 14px;}
+								span.btn_menu:hover img.btn_04 {position: absolute; top: 22px; left: 0px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_05 {position: relative; top: 22px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_06 {position: absolute; top: 22px; right: 0px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_07 {position: absolute; bottom: 2px; left: 2px; width: 14px; height: 14px;}
+								span.btn_menu:hover img.btn_08 {position: absolute; bottom: 0px; left: 22px; width: 16px; height: 16px;}
+								span.btn_menu:hover img.btn_09 {position: absolute; bottom: 2px; right: 2px; width: 14px; height: 14px;}
+
+								div.resize {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #d4c8b3; text-align: center; font-size: 30px;}
+								div.resize p {position: fixed; top: 50%; transform: translateY(-50%); width: 100%;}
+}

@@ -1,0 +1,362 @@
+/* -- Basic -- */
+aside {width: 0px; height: 0px;}
+
+aside.left h1 {display: none; position: fixed; top: 30px; left: 30px; width: 60px; height: 80px;}
+								aside.left h1 p {position: absolute; top: 40%; left: 0; width: 100%; text-align: center; font-size: 18px; opacity: 0;}
+
+div.container {position: relative; display: table-cell; overflow: scroll; width: 100%; height: auto;}
+div.container section {position: fixed; top: 0; left: 0; transform: translate(0, 0); display: block; overflow: visible; width: 100%; max-width: 100%; height: 100%; margin: 0 auto;}
+div.container section img.btn_wprevious {display: none; position: absolute; top: 50%; left: 15px; transform: translate(0, -50%);}
+div.container section img.btn_wnext {display: none; position: absolute; top: 50%; right: 15px; transform: translate(0, -50%);}
+div.container section img.btn_vprevious {display: none; position: absolute; top: 50%; left: 15px; transform: translate(0, -50%);}
+div.container section img.btn_vnext {display: none; position: absolute; top: 50%; right: 15px; transform: translate(0, -50%);}
+
+                .mouse {display: none; position: absolute; top: 20px; right: 94px; width: 30px; height: 42px; border-radius: 14px; background: #d4c8b3; text-align: center;}
+                .mouse>span {display: inline-block; transform: translateY(2px); width: 8px; height: 20px; border-radius: 6px; background: #efece1;}
+                .mouse>span>span.wheel {display: inline-block; transform: translateY(-7px); width: 6px; height: 6px; border-radius: 3px; background: #d4c8b3;}
+
+                div.container section.section_web {overflow: scroll; width: 100%; height: 100%;}
+                div.container section.section_web h2 {display: none; width: 100%; font-size: 16px; text-align: center;}
+
+                div.container section.section_web>ul.web {position: fixed; top: 0; left: 0; width: 100%; height: 100vh;}
+                div.container section.section_web>ul.web>li {overflow: scroll; position: absolute; top: 0; left: 0; width: 100%; height: 100vh; transition: all 0.4s;}
+                div.container section.section_web>ul.web>li.web_next {position: absolute; top: 0; left: 100%;}
+                div.container section.section_web>ul.web>li.web_prev {position: absolute; top: 0; left: -100%;}
+                div.container section.section_web>ul.web>li article.m_bg {display: none; overflow: hidden; width: 100%; height: 100%;}
+                div.container section.section_web article.m_bg div.m_cover {display: none; position: relative; top: 0; left: 0; width: 100%; height: 100%; background: rgba(241, 239, 232, 0.7);}
+                div.container section.section_web article.m_bg dl {cursor: pointer; position: absolute; bottom: 50%; left: 10%;}
+                div.container section.section_web article.m_bg dl dt {padding-left: 15px; line-height: 40px; font-size: 30px;}
+                div.container section.section_web article.m_bg dl dt:first-child {position: relative; left: 24px; margin-left: 10px; padding-left: 5px; font-size: 15px; line-height: 16px;}
+                div.container section.section_web article.m_bg dl dt:first-child:before {content: url('../images/btn_portfolio_title.png'); position: absolute; bottom: 0; right: 100%; width: 24px; height: 16px;}
+                div.container section.section_web article.m_bg dl dd {font-size: 17px;}
+
+                div.container section.section_web article.web_pic {display: none;}
+                
+                div.container section.section_web article.web_desc {overflow: scroll; position: fixed; top: 100%; left: 0; width: 100%;height: 100%; margin: 0 auto; padding: 0 3%; text-align: center; transition: 0.4s; background: #efece1;}
+                div.container section.section_web article.web_desc h2 {opacity: 0; display: block; margin-top: 80px; font-size: 19px;}
+                div.container section.section_web article.web_desc h2 span.txt_red {font-size: 30px;}
+                div.container section.section_web article.web_desc dl {overflow: hidden; max-width: 400px; margin: 34px auto; text-align: left;}
+                div.container section.section_web article.web_desc dl dt {opacity: 0; float: left; display: inline-block; width: 32%; height: 30px; padding: 5px 0; font-size: 16px; line-height: 30px;}    
+                div.container section.section_web article.web_desc dl dt span {font-size: 16px; line-height: 30px;}
+                div.container section.section_web article.web_desc dl dd {opacity: 0; float: left; display: inline-block; width: 68%; height: auto; padding: 5px 0; font-size: 17px; line-height: 30px;}
+                div.container section.section_web article.web_desc dl dd ul {height: 30px;}
+                div.container section.section_web article.web_desc dl dd ul li {position: relative; display: inline-block; width: 19px; height: 25px; margin-right: 7px;}
+                div.container section.section_web article.web_desc dl dd ul li span{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block; width: 19px; height: 19px; border-radius: 10px; line-height: 30px;}
+                div.container section.section_web article.web_desc dl dd ul li span.color01 {background: #a71e22;}
+                div.container section.section_web article.web_desc dl dd ul li span.color02 {background: #2b2627;}
+                div.container section.section_web article.web_desc dl dd ul li span.color03 {background: #efece1; border: 1px solid rgb(212, 200, 179);}
+                div.container section.section_web article.web_desc dl dd ul li span.color04 {background: #d4c8b3;}
+                div.container section.section_web article.web_desc dl dd ul li span.color05 {background: #8c0303;}
+                div.container section.section_web article.web_desc dl dd ul li span.color06 {background: #e8e8e8; border: 1px solid rgb(212, 200, 179);}
+                div.container section.section_web article.web_desc dl dd ul li span.color07 {background: #919292;}
+                div.container section.section_web article.web_desc dl dd ul li span.color08 {background: #000;}
+                div.container section.section_web article.web_desc dl dd ul li span.color09 {background: #fff; border: 1px solid rgb(212, 200, 179);}
+                div.container section.section_web article.web_desc dl dd ul li span.color10 {background: #555;}
+                div.container section.section_web article.web_desc dl dd ul li span.color11 {background: #bbb;}
+                div.container section.section_web article.web_desc a {opacity: 0;}
+                div.container section.section_web article.web_desc img.btn_desc {cursor: pointer; position: absolute; top: 15px; left: 15px; transform: translate(-50%); transform: rotate(180deg);}
+                div.container section.section_web article.web_desc img:nth-child(1) {margin: 34px 0 145px 0;}
+
+div.container section.section_preview {display: none; overflow: scroll; width: 100%; height: 100%; text-align: center;}
+div.container section.section_preview img.btn_previous, div.container section.section_preview img.btn_next {display: none;}
+div.container section.section_preview div {position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 300px; height: 303px; margin: 0 auto; text-align: center;}
+div.container section.section_preview div h2 {opacity: 0; position: absolute; top: -60px; display: block; width: 100%; height: 20px; font-size: 17px; line-height: 20px; text-align: center;}
+div.container section.section_preview div a {opacity: 0; display: block; position: absolute; top: 0; left: 0; width: 300px; height: 300px; border-radius: 150px; transition: all 0.4s;}
+div.container section.section_preview div a.thumb_left {opacity: 0.5; transform: translateX(-90%) scale(0.5); z-index: 2;}
+div.container section.section_preview div a.thumb_center {opacity: 1; z-index: 3;}
+div.container section.section_preview div a.thumb_right {opacity: 0.5; transform: translateX(90%) scale(0.5); z-index: 2;}
+
+div.gnb {display: block; position: fixed; top: 0; left: 100%; overflow: hidden; width: 100%; height: 100%; background: #d4c8b3; text-align: center; transition: left 0.3s}
+div.gnb h1 img {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%);}
+div.gnb ul li:nth-child(1) {cursor: pointer; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+div.gnb ul li:nth-child(2) {cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+div.gnb ul li:nth-child(3) {cursor: pointer; position: absolute; top: 60%; right: 50%; transform: translate(50%, -50%); float:left; font-size: 31px;}
+
+span.btn_menu {position: fixed; top: 10px; right: 10px; width: 40px; height: 40px;}
+
+span.btn_menu img {transition: 0.3s;}
+
+span.btn_menu img.btn_01 {position: absolute; top: 2px; left: 2px; width: 10px; height: 10px;}
+span.btn_menu img.btn_02 {position: absolute; top: 0px; left: 14px; width: 12px; height: 12px;}
+span.btn_menu img.btn_03 {position: absolute; top: 2px; right: 2px; width: 10px; height: 10px;}
+span.btn_menu img.btn_04 {position: absolute; top: 14px; left: 0px; width: 12px; height: 12px;}
+span.btn_menu img.btn_05 {position: absolute; top: 14px; left: 14px; width: 12px; height: 12px;}
+span.btn_menu img.btn_06 {position: absolute; top: 14px; right: 0px; width: 12px; height: 12px;}
+span.btn_menu img.btn_07 {position: absolute; bottom: 2px; left: 2px; width: 10px; height: 10px;}
+span.btn_menu img.btn_08 {position: absolute; bottom: 0px; left: 14px; width: 12px; height: 12px;}
+span.btn_menu img.btn_09 {position: absolute; bottom: 2px; right: 2px; width: 10px; height: 10px;}
+
+ul.w_pagenation {position: fixed; bottom: 59px; left: 50%; transform: translateX(-50%); height: 12px; text-align: center;}
+ul.w_pagenation li {position: relative; display: inline-block; width: 12px; height: 12px; text-align: center; line-height: 12px;}
+ul.w_pagenation li span {cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 8px; height: 8px; border-radius: 5px; background: #2b2627;}
+ul.w_pagenation li span.page_selected {width: 10px; height: 10px; background: #a71e22;}
+ul.v_pagenation {position: fixed; bottom: 59px; left: 50%; transform: translateX(-50%); height: 12px; text-align: center;}
+ul.v_pagenation li {position: relative; display: inline-block; width: 12px; height: 12px; text-align: center; line-height: 12px;}
+ul.v_pagenation li span {cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 8px; height: 8px; border-radius: 5px; background: #2b2627;}
+ul.v_pagenation li span.page_selected {width: 10px; height: 10px; background: #a71e22;}
+
+nav.submenu div {cursor: pointer; position: fixed; bottom: 0px; left: 50%; transform: translateX(-50%); width: 100px; height: 50px;}
+nav.submenu div img:nth-child(2) {position: absolute; top: 10px; left: 28px; transform: rotate3d(0, 0, 0, -180deg); transition: all 0.3s;}
+nav.submenu ul {position: fixed; bottom: -30px; right: 0; width: 100%; height: 30px; line-height: 30px; background: #d4c8b3; font-family: "Eng I"; font-size: 17px; text-align: center;}
+nav.submenu ul li {cursor: pointer; overflow: hidden; float: left; width: 50%;}
+
+                article.visual_desc {display: none; position: fixed;  top: 50%; left: 50%; transform: translate(-50%, -50%); width: 1px; height: 1px; border-radius: 1px; background:  rgba(43, 38, 39, 0.9);}
+                article.visual_desc>div {display: none; position: fixed;  top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; color: #efece1;}
+                article.visual_desc>div>section {cursor: pointer; position: fixed; top: 10px; left: 50%; transform: translate(-50%); width: 24px; height: 16px;}
+                article.visual_desc>div>img{position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 400px;}
+                article.visual_desc>div>h2 {position: absolute; top: 15% ; width: 100%; height: 24px; text-align: center; font-size: 24px;}
+
+div.alert_cover {display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(43, 38, 39, 0.6);}
+div.alert_cover img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; max-width: 198px; height: auto;}
+
+div.container section.section_visual img.close {position: fixed; top: 32px; left: 50%; transform: rotate(180deg) translate(50%, 0);}
+
+								div.resize {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #d4c8b3; text-align: center; font-size: 30px;}
+								div.resize p {position: fixed; top: 50%; transform: translateY(-50%); width: 100%;}
+
+
+/* -- Tablet -- */
+@media screen and (min-width: 768px){
+aside {width: 0px; height: 0px;}
+
+aside.left h1 {display: none; position: fixed; top: 30px; left: 30px; width: 60px; height: 80px;}
+								aside.left h1 p {position: absolute; top: 40%; left: 0; width: 100%; text-align: center; font-size: 18px; opacity: 0;}
+
+div.container {position: relative; display: table-cell; overflow: scroll; width: 100%; height: auto;}
+div.container section {position: fixed; top: 0; left: 0; transform: translate(0, 0); display: block; overflow: visible; width: 100%; max-width: 100%; height: 100%; margin: 0 auto;}
+div.container section img.btn_wprevious {display: none; position: absolute; top: 50%; left: 15px; transform: translate(0, -50%);}
+div.container section img.btn_wnext {display: none; position: absolute; top: 50%; right: 15px; transform: translate(0, -50%);}
+div.container section img.btn_vprevious {display: none; position: absolute; top: 50%; left: 15px; transform: translate(0, -50%);}
+div.container section img.btn_vnext {display: none; position: absolute; top: 50%; right: 15px; transform: translate(0, -50%);}
+
+                .mouse {display: none; position: absolute; top: 20px; right: 94px; width: 30px; height: 42px; border-radius: 14px; background: #d4c8b3; text-align: center;}
+                .mouse>span {display: inline-block; transform: translateY(2px); width: 8px; height: 20px; border-radius: 6px; background: #efece1;}
+                .mouse>span>span.wheel {display: inline-block; transform: translateY(-7px); width: 6px; height: 6px; border-radius: 3px; background: #d4c8b3;}
+
+                div.container section.section_web {overflow: scroll; width: 100%; height: 100%;}
+                div.container section.section_web h2 {display: none; width: 100%; height: 22px; margin-top: 80px; font-size: 24px; text-align: center;}
+                div.container section.section_web h2 span.txt_red {font-size: 38px;}
+
+                div.container section.section_web>ul.web {position: fixed; top: 0; left: 0; width: 100%; height: 100vh;}
+                div.container section.section_web>ul.web>li {overflow: scroll; position: absolute; top: 0; left: 0; width: 100%; height: 100vh; transition: all 0.4s;}
+                div.container section.section_web>ul.web>li.web_next {position: absolute; top: 0; left: 100%;}
+                div.container section.section_web>ul.web>li.web_prev {position: absolute; top: 0; left: -100%;}
+
+                div.container section.section_web article.m_bg {display: none; width: 100%; height: 100%; background: url('../images/img_m_port01.png') no-repeat center; background-size: cover;}
+                div.container section.section_web article.m_bg div.m_cover {position: relative; top: 0; left: 0; width: 100%; height: 100%; background: rgba(241, 239, 232, 0.7);}
+                div.container section.section_web article.m_bg dl {cursor: pointer; position: absolute; bottom: 50%; left: 10%;}
+                div.container section.section_web article.m_bg dl dt {padding-left: 15px; line-height: 30px; font-size: 22px;}
+                div.container section.section_web article.m_bg dl dt:first-child {position: relative; left: 24px; margin-left: 10px; padding-left: 5px; font-size: 13px; line-height: 16px;}
+                div.container section.section_web article.m_bg dl dt:first-child:before {content: url('../images/btn_portfolio_title.png'); position: absolute; bottom: 0; right: 100%; width: 24px; height: 16px;}
+                div.container section.section_web article.m_bg dl dd {font-size: 14px;}
+
+                div.container section.section_web article.web_pic {opacity: 0; display: block; width: 100%; margin: 40px auto; text-align: center;}
+                div.container section.section_web article.web_pic img{width: 100%; max-width: 637px;}
+                
+                div.container section.section_web article.web_desc {display: block; position: static; width: 100%; max-width: 500px; height: auto; margin: 0 auto; padding: 0 3%; text-align: center;}
+                div.container section.section_web article.web_desc h2 {display: none; margin-top: 80px; font-size: 16px;}
+                div.container section.section_web article.web_desc h2 span.txt_red {font-size: 22px;}
+                div.container section.section_web article.web_desc dl {overflow: hidden; margin: 0; max-width: none; text-align: left;}
+                div.container section.section_web article.web_desc dl dt {opacity: 0; float: left; display: inline-block; width: 22%; height: 28px; padding: 5px 0; font-size: 16px; line-height: 28px;}    
+                div.container section.section_web article.web_desc dl dt span {font-size: 16px;}
+                div.container section.section_web article.web_desc dl dd {opacity: 0; float: inherit; display: inline-block; width: 78%; height: auto; padding: 5px 0; font-size: 18px; line-height: 28px;}
+                div.container section.section_web article.web_desc dl dd ul {height: 25px; line-height: 28px;}
+                div.container section.section_web article.web_desc dl dd ul li {position: relative; display: inline-block; width: 19px; height: 28px; margin-right: 7px;}
+                div.container section.section_web article.web_desc dl dd ul li span{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block; width: 19px; height: 19px; border-radius: 10px; line-height: 28px;}
+                div.container section.section_web article.web_desc dl dd ul li span.color01 {background: #a71e22;}
+                div.container section.section_web article.web_desc dl dd ul li span.color02 {background: #2b2627;}
+                div.container section.section_web article.web_desc dl dd ul li span.color03 {background: #efece1; border: 1px solid rgb(212, 200, 179);}
+                div.container section.section_web article.web_desc dl dd ul li span.color04 {background: #d4c8b3;}
+                div.container section.section_web article.web_desc dl dd ul li span.color05 {background: #8c0303;}
+                div.container section.section_web article.web_desc dl dd ul li span.color06 {background: #e8e8e8; border: 1px solid rgb(212, 200, 179);}
+                div.container section.section_web article.web_desc dl dd ul li span.color07 {background: #919292;}
+                div.container section.section_web article.web_desc img.btn_desc {cursor: pointer; display: none; cursor: pointer; position: fixed; top: 24px; left: 8px; transform: rotate(-90deg);}
+                div.container section.section_web article.web_desc img:nth-child(1) {margin: 34px 0 145px 0;}
+
+div.container section.section_preview {display: none; overflow: scroll; width: 100%; height: 100%; text-align: center;}
+div.container section.section_preview img.btn_previous, div.container section.section_preview img.btn_next {display: none;}
+div.container section.section_preview div {position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 300px; height: 303px; margin: 0 auto; text-align: center;}
+div.container section.section_preview div h2 {position: absolute; top: -60px; display: block; width: 100%; height: 20px; font-size: 20px; line-height: 20px; text-align: center;}
+div.container section.section_preview div a {opacity: 0; display: block; position: absolute; top: 0; left: 0; width: 300px; height: 300px; border-radius: 150px; transition: all 0.4s;}
+div.container section.section_preview div a.thumb_left {opacity: 0.5; background: pink; transform: translateX(-90%) scale(0.5); z-index: 2;}
+div.container section.section_preview div a.thumb_center {opacity: 1; background: pink; z-index: 3;}
+div.container section.section_preview div a.thumb_right {opacity: 0.5; background: pink; transform: translateX(90%) scale(0.5); z-index: 2;}
+
+div.gnb {display: block; position: fixed; top: 0; left: 100%; overflow: hidden; width: 100%; height: 100%; background: #d4c8b3; text-align: center; transition: left 0.3s}
+div.gnb h1 img {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%);}
+div.gnb ul li:nth-child(1) {position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+div.gnb ul li:nth-child(2) {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+div.gnb ul li:nth-child(3) {position: absolute; top: 60%; right: 50%; transform: translate(50%, -50%); float:left; font-size: 31px;}
+
+span.btn_menu {position: fixed; top: 10px; right: 10px; width: 60px; height: 60px;}
+
+span.btn_menu img {transition: 0.3s;}
+
+span.btn_menu img.btn_01 {position: absolute; top: 4px; left: 4px; width: 14px; height: 14px;}
+span.btn_menu img.btn_02 {position: absolute; top: 0px; left: 22px; width: 16px; height: 16px;}
+span.btn_menu img.btn_03 {position: absolute; top: 4px; right: 4px; width: 14px; height: 14px;}
+span.btn_menu img.btn_04 {position: absolute; top: 22px; left: 0px; width: 16px; height: 16px;}
+span.btn_menu img.btn_05 {position: absolute; top: 22px; left: 22px; width: 16px; height: 16px;}
+span.btn_menu img.btn_06 {position: absolute; top: 22px; right: 0px; width: 16px; height: 16px;}
+span.btn_menu img.btn_07 {position: absolute; bottom: 4px; left: 4px; width: 14px; height: 14px;}
+span.btn_menu img.btn_08 {position: absolute; bottom: 0px; left: 22px; width: 16px; height: 16px;}
+span.btn_menu img.btn_09 {position: absolute; bottom: 4px; right: 4px; width: 14px; height: 14px;}
+
+ul.w_pagenation {position: fixed; bottom: 59px; left: 50%; transform: translateX(-50%); height: 12px; text-align: center;}
+ul.w_pagenation li {position: relative; display: inline-block; width: 12px; height: 12px; text-align: center; line-height: 12px;}
+ul.w_pagenation li span {cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 8px; height: 8px; border-radius: 5px; background: #2b2627;}
+ul.w_pagenation li span.page_selected {width: 10px; height: 10px; background: #a71e22;}
+ul.v_pagenation {position: fixed; bottom: 59px; left: 50%; transform: translateX(-50%); height: 12px; text-align: center;}
+ul.v_pagenation li {position: relative; display: inline-block; width: 12px; height: 12px; text-align: center; line-height: 12px;}
+ul.v_pagenation li span {cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 8px; height: 8px; border-radius: 5px; background: #2b2627;}
+ul.v_pagenation li span.page_selected {width: 10px; height: 10px; background: #a71e22;}
+
+nav.submenu div {cursor: pointer; position: fixed; bottom: 0px; left: 50%; transform: translateX(-50%); width: 100px; height: 50px;}
+nav.submenu div img:nth-child(2) {position: absolute; top: 10px; left: 28px; transform: rotate3d(0, 0, 0, -90deg);}
+nav.submenu ul {position: fixed; bottom: -30px; right: 0; width: 100%; height: 30px; line-height: 30px; background: #d4c8b3; font-family: "Eng I"; font-size: 17px; text-align: center;}
+nav.submenu ul li {cursor: pointer; overflow: hidden; float: left; width: 50%;}
+
+                article.visual_desc {display: none; position: fixed;  top: 50%; left: 50%; transform: translate(-50%, -50%); width: 1px; height: 1px; border-radius: 1px; background:  rgba(43, 38, 39, 0.9);}
+                article.visual_desc>div {display: none; position: fixed;  top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; color: #efece1;}
+                article.visual_desc>div>section {cursor: pointer; position: fixed; top: 10px; left: 50%; transform: translate(-50%); width: 24px; height: 16px;}
+                article.visual_desc>div>img{position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 400px;}
+                article.visual_desc>div>h2 {position: absolute; top: 15% ; width: 100%; height: 24px; text-align: center; font-size: 24px;}
+
+div.alert_cover {display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(43, 38, 39, 0.6);}
+div.alert_cover img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; max-width: 198px; height: auto;}
+
+div.container section.section_web img.close {display: none; position: fixed; top: 32px; left: 50%; transform: rotate(180deg);}
+
+								div.resize {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #d4c8b3; text-align: center; font-size: 30px;}
+								div.resize p {position: fixed; top: 50%; transform: translateY(-50%); width: 100%;}
+}
+
+
+
+/* -- Desktop -- */
+@media screen and (min-width: 1280px){
+aside {width: 120px; height: 100%;}
+
+aside.left h1 {display: block; position: fixed; top: 30px; left: 30px; width: 60px; height: 80px;}
+								aside.left h1 p {position: absolute; top: 40%; left: 0; width: 100%; text-align: center; font-size: 18px; opacity: 0;}
+
+div.container {position: relative; display: table-cell; overflow: hidden; width: auto; height: 100%;}
+div.container section {position: absolute; top: 0; left: 0; transform: translate(0, 0); display: block; overflow: hidden; width: 100%; max-width: 100%; height: 100%; margin: 0 auto;}
+div.container section img.btn_wprevious {display: block; position: absolute; top: 50%; left: 15px; transform: translate(0, -50%);}
+div.container section img.btn_wnext {display: block; position: absolute; top: 50%; right: 15px; transform: translate(0, -50%);}
+div.container section img.btn_vprevious {display: block; position: absolute; top: 50%; left: 15px; transform: translate(0, -50%);}
+div.container section img.btn_vnext {display: block; position: absolute; top: 50%; right: 15px; transform: translate(0, -50%);}
+
+                .mouse {display: inline-block; position: absolute; top: 20px; right: 94px; width: 30px; height: 42px; border-radius: 14px; background: #d4c8b3; text-align: center;}
+                .mouse>span {display: inline-block; transform: translateY(2px); width: 8px; height: 20px; border-radius: 6px; background: #efece1;}
+                .mouse>span>span.wheel {display: inline-block; transform: translateY(-7px); width: 6px; height: 6px; border-radius: 3px; background: #d4c8b3;}
+
+                div.container section.section_web {overflow: hidden; width: 100%; height: 100vh;}
+                div.container section.section_web h2 {position: absolute; top: 10%; width: 100%; height: 38px; margin-top: 0; font-size: 24px; text-align: center;}
+                div.container section.section_web h2 span.txt_red {font-size: 38px;}
+
+                div.container section.section_web>ul.web {overflow: hidden; position: relative; top: 0; left: 0; width: 100%; height: 100vh;}
+                div.container section.section_web>ul.web>li {overflow: hidden; position: absolute; top: 0; left: 0; width: 100%; height: 100vh; transition: all 0.4s;}
+                div.container section.section_web>ul.web>li.web_next {position: absolute; top: 0; left: 100%;}
+                div.container section.section_web>ul.web>li.web_prev {position: absolute; top: 0; left: -100%;}
+
+                div.container section.section_web article.m_bg {display: none; width: 100%; height: 100%; background: url('../images/img_m_port01.png') no-repeat center; background-size: cover;}
+                div.container section.section_web article.m_bg div.m_cover {position: relative; top: 0; left: 0; width: 100%; height: 100%; background: rgba(241, 239, 232, 0.7);}
+                div.container section.section_web article.m_bg dl {position: absolute; bottom: 50%; left: 10%;}
+                div.container section.section_web article.m_bg dl dt {padding-left: 15px; line-height: 30px; font-size: 22px;}
+                div.container section.section_web article.m_bg dl dt:first-child {position: relative; left: 24px; margin-left: 10px; padding-left: 5px; font-size: 13px; line-height: 16px;}
+                div.container section.section_web article.m_bg dl dt:first-child:before {content: url('../images/btn_portfolio_title.png'); position: absolute; bottom: 0; right: 100%; width: 24px; height: 16px;}
+                div.container section.section_web article.m_bg dl dd {font-size: 14px;}
+
+                div.container section.section_web article.web_pic {opacity: 0; display: inline-block; overflow: visible; position: absolute; top: 50%; left: 0; transform: translate(0, -50%); width: 60%; margin: 0 auto; padding-left: 75px; text-align: center;}
+                div.container section.section_web article.web_pic img{width: 100%; max-width: 637px;}
+                
+                div.container section.section_web article.web_desc {overflow: scroll; display: inline-block; position: absolute; top:50%; left: 50%; transform: translate(0, -50%); width: 50%; max-width: 50%; height: auto; max-height: 50vh; margin: 0 auto; padding-right: 75px; text-align: center; background: transparent;}
+                div.container section.section_web article.web_desc h2 {display: none; margin-top: 80px; font-size: 16px;}
+                div.container section.section_web article.web_desc h2 span.txt_red {font-size: 22px;}
+                div.container section.section_web article.web_desc dl {overflow: hidden; margin: 0; text-align: left;}
+                div.container section.section_web article.web_desc dl dt {opacity: 0; float: left; display: inline-block; width: 26%; height: 28px; padding: 5px 0; font-size: 16px; line-height: 28px;}    
+                div.container section.section_web article.web_desc dl dt span {font-size: 16px; line-height: 28px;}
+                div.container section.section_web article.web_desc dl dd {opacity: 0; float: left; display: inline-block; width: 74%; height: auto; padding: 5px 0; font-size: 18px; line-height: 28px;}
+                div.container section.section_web article.web_desc dl dd ul {height: 28px;}
+                div.container section.section_web article.web_desc dl dd ul li {position: relative; display: inline-block; width: 19px; height: 28px; margin-right: 7px;}
+                div.container section.section_web article.web_desc dl dd ul li span{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block; width: 19px; height: 19px; border-radius: 10px; line-height: 28px;}
+                div.container section.section_web article.web_desc dl dd ul li span.color01 {background: #a71e22;}
+                div.container section.section_web article.web_desc dl dd ul li span.color02 {background: #2b2627;}
+                div.container section.section_web article.web_desc dl dd ul li span.color03 {background: #efece1; border: 1px solid rgb(212, 200, 179);}
+                div.container section.section_web article.web_desc dl dd ul li span.color04 {background: #d4c8b3;}
+                div.container section.section_web article.web_desc dl dd ul li span.color05 {background: #8c0303;}
+                div.container section.section_web article.web_desc dl dd ul li span.color06 {background: #e8e8e8; border: 1px solid rgb(212, 200, 179);}
+                div.container section.section_web article.web_desc dl dd ul li span.color07 {background: #919292;}
+                div.container section.section_web article.web_desc img.btn_desc {cursor: pointer; display: none; cursor: pointer; position: fixed; top: 24px; left: 8px; transform: rotate(-90deg);}
+                div.container section.section_web article.web_desc img:nth-child(1) {margin: 10% 0 0 30%; border-radius: 25px; box-shadow: 2px 2px 0 #a71e22;}
+                div.container section.section_web article.web_desc img:nth-child(1):hover {transform: translate(2px, 2px); box-shadow: none;}
+
+div.container section.section_preview {display: none; overflow: visible; width: 100%; height: 100vh; text-align: center;}
+div.container section.section_preview img.btn_previous, div.container section.section_preview img.btn_next {display: block;}
+div.container section.section_preview div {position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 400px; height: 404px; margin: 0 auto; text-align: center;}
+div.container section.section_preview div h2 {position: absolute; top: -60px; display: block; width: 100%; height: 20px; font-size: 20px; line-height: 20px; text-align: center;}
+div.container section.section_preview div a {opacity: 0; display: block; position: absolute; top: 0; left: 0; width: 400px; height: 400px; border-radius: 200px; transition: all 0.4s;}
+div.container section.section_preview div a.thumb_left {opacity: 0.5; background: pink; transform: translateX(-90%) scale(0.5); z-index: 2;}
+div.container section.section_preview div a.thumb_center {opacity: 1; background: pink; z-index: 3;}
+div.container section.section_preview div a.thumb_right {opacity: 0.5; background: pink; transform: translateX(90%) scale(0.5); z-index: 2;}
+
+div.gnb {display: block; position: fixed; top: 0; left: 100%; overflow: hidden; width: 100%; height: 100%; background: #d4c8b3; text-align: center; transition: left 0.3s}
+div.gnb h1 img {position: absolute; top: 25%; left: 50%; transform: translate(-50%, -50%);}
+div.gnb ul li:nth-child(1) {position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+div.gnb ul li:nth-child(2) {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); float:left; font-size: 31px;}
+div.gnb ul li:nth-child(3) {position: absolute; top: 50%; right: 25%; transform: translate(50%, -50%); float:left; font-size: 31px;}
+
+span.btn_menu {position: fixed; top: 30px; right: 30px; width: 60px; height: 60px;}
+
+span.btn_menu img {transition: 0.3s;}
+span.btn_menu:hover img {transition: 0.3s;}
+
+span.btn_menu img.btn_01 {position: absolute; top: 4px; left: 4px; width: 14px; height: 14px;}
+span.btn_menu img.btn_02 {position: absolute; top: 0px; left: 22px; width: 16px; height: 16px;}
+span.btn_menu img.btn_03 {position: absolute; top: 4px; right: 4px; width: 14px; height: 14px;}
+span.btn_menu img.btn_04 {position: absolute; top: 22px; left: 0px; width: 16px; height: 16px;}
+span.btn_menu img.btn_05 {position: absolute; top: 22px; left: 22px; width: 16px; height: 16px;}
+span.btn_menu img.btn_06 {position: absolute; top: 22px; right: 0px; width: 16px; height: 16px;}
+span.btn_menu img.btn_07 {position: absolute; bottom: 4px; left: 4px; width: 14px; height: 14px;}
+span.btn_menu img.btn_08 {position: absolute; bottom: 0px; left: 22px; width: 16px; height: 16px;}
+span.btn_menu img.btn_09 {position: absolute; bottom: 4px; right: 4px; width: 14px; height: 14px;}
+
+span.btn_menu:hover img.btn_01 {position: absolute; top: 2px; left: 2px; width: 14px; height: 14px;}
+span.btn_menu:hover img.btn_02 {position: absolute; top: 0px; left: 22px; width: 16px; height: 16px;}
+span.btn_menu:hover img.btn_03 {position: absolute; top: 2px; right: 2px; width: 14px; height: 14px;}
+span.btn_menu:hover img.btn_04 {position: absolute; top: 22px; left: 0px; width: 16px; height: 16px;}
+span.btn_menu:hover img.btn_05 {position: absolute; top: 22px; left: 22px; width: 16px; height: 16px;}
+span.btn_menu:hover img.btn_06 {position: absolute; top: 22px; right: 0px; width: 16px; height: 16px;}
+span.btn_menu:hover img.btn_07 {position: absolute; bottom: 2px; left: 2px; width: 14px; height: 14px;}
+span.btn_menu:hover img.btn_08 {position: absolute; bottom: 0px; left: 22px; width: 16px; height: 16px;}
+span.btn_menu:hover img.btn_09 {position: absolute; bottom: 2px; right: 2px; width: 14px; height: 14px;}
+
+ul.w_pagenation {position: fixed; bottom: 59px; left: 50%; transform: translateX(-50%); height: 12px; text-align: center;}
+ul.w_pagenation li {position: relative; display: inline-block; width: 12px; height: 12px; text-align: center; line-height: 12px;}
+ul.w_pagenation li span {cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 8px; height: 8px; border-radius: 5px; background: #2b2627;}
+ul.w_pagenation li span.page_selected {width: 10px; height: 10px; background: #a71e22;}
+ul.v_pagenation {position: fixed; bottom: 59px; left: 50%; transform: translateX(-50%); height: 12px; text-align: center;}
+ul.v_pagenation li {position: relative; display: inline-block; width: 12px; height: 12px; text-align: center; line-height: 12px;}
+ul.v_pagenation li span {cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 8px; height: 8px; border-radius: 5px; background: #2b2627;}
+ul.v_pagenation li span.page_selected {width: 10px; height: 10px; background: #a71e22;}
+
+nav.submenu div {cursor: pointer; display: none; position: fixed; bottom: 0px; left: 50%; transform: translateX(-50%); width: 100px; height: 50px;}
+nav.submenu div img:nth-child(2) {position: absolute; top: 10px; left: 28px; transform: rotate3d(0, 0, 0, -90deg);}
+nav.submenu ul {position: fixed; bottom: 50%; right: 0; transform: translate(0, 40px); width: 120px; height: 50px; font-family: "Eng I"; font-size: 16px; text-align: center; background: transparent; transition: transform 0.3s;}
+nav.submenu ul li {cursor: pointer; overflow: hidden; float: none; width: 100%; line-height: 25px;}
+
+                article.visual_desc {display: none; position: fixed;  top: 50%; left: 50%; transform: translate(-50%, -50%); width: 1px; height: 1px; border-radius: 1px; background:  rgba(43, 38, 39, 0.9);}
+                article.visual_desc>div {display: none; position: fixed;  top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; color: #efece1;}
+                article.visual_desc>div>section {cursor: pointer; position: fixed; top: 10px; left: 50%; transform: translate(-50%); width: 24px; height: 16px;}
+                article.visual_desc>div>img{position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); width: auto; max-width: none; max-height: 60%;}
+                article.visual_desc>div>h2 {position: absolute; top: 15% ; width: 100%; height: 24px; text-align: center; font-size: 24px;}
+
+div.alert_cover {display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(43, 38, 39, 0.6);}
+div.alert_cover img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; max-width: 198px; height: auto;}
+
+div.container section.section_visual img.close {display: none; position: fixed; top: 32px; left: 50%; transform: rotate(180deg) translate(50%, 0);}
+
+								div.resize {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #d4c8b3; text-align: center; font-size: 30px;}
+								div.resize p {position: fixed; top: 50%; transform: translateY(-50%); width: 100%;}
+}
